@@ -1,7 +1,7 @@
 #include "includeAll.h"
 using namespace std;
 
-// "Bubble Sort" Sorting Algorithm Time Complexity O(N^2).
+// "Bubble Sort" Sorting Algorithm Time Complexity O(N^2)
 void sort (int *listOfElements, int sizeOfList) {
 	for (int i = 0; i < sizeOfList - 1; ++i) {
 		for (int j = i+1; j < sizeOfList; ++j) 
